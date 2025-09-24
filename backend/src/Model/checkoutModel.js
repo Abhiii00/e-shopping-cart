@@ -15,6 +15,9 @@ const paymentSchema = new mongoose.Schema({
     transactionId: {
         type: String,
     },
+    sessionId: {
+        type: String,
+    },
     products: {
         type: Array,
     },
